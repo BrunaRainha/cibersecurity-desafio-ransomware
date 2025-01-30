@@ -15,25 +15,25 @@ Kali Linux,
 **Biblioteca **pyaes
 
 ## 📥 Instalação e Execução
-🔹 1. Clonar o repositório
+🔹 1. Clonar o repositório:
  git clone https://github.com/cassiano-dio/cibersecurity-desafio-ransomware
  cd simulador-ransomware
 
-🔹 2. Instalar dependências
+🔹 2. Instalar dependências:
 Caso não tenha a biblioteca pyaes, instale com:
 pip install pyaes
 
-🔹 3. Criar um arquivo para teste
+🔹 3. Criar um arquivo para teste:
 Antes de rodar o script, crie um arquivo de teste:
 echo "Alo Brasil" > teste.txt
 
-🔹 4. Executar o Encrypter
+🔹 4. Executar o Encrypter:
 python encrypter.py
-Isso removerá o arquivo teste.txt e criará teste.txt.ransomwaretroll.
+isso removerá o arquivo teste.txt e criará teste.txt.ransomwaretroll.
 
-🔹 5. Executar o Decrypter
+🔹 5. Executar o Decrypter:
 python decrypter.py
-Isso removerá o arquivo criptografado e restaurará teste.txt.
+isso removerá o arquivo criptografado e restaurará teste.txt.
 
 ## 📝🔹 Códigos
 Encrypter (encrypter.py)
