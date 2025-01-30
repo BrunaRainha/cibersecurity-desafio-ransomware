@@ -10,8 +10,8 @@ O script encrypter.py criptografa um arquivo chamado teste.txt e cria um novo ar
 O script decrypter.py descriptografa o arquivo e restaura o seu conteúdo original.
 
 ## 🚀 Tecnologias Utilizadas
-Python 3
-Kali Linux
+Python 3,
+Kali Linux,
 **Biblioteca **pyaes
 
 ## 📥 Instalação e Execução
