@@ -1,20 +1,20 @@
-🔒🔹 Simulador de Ransomware em Python:
+##🔒 Simulador de Ransomware em Python:
 Este projeto é uma simulação de ransomware desenvolvida em Python no Kali Linux. Ele criptografa e descriptografa arquivos usando o algoritmo AES (Advanced Encryption Standard) por meio da biblioteca pyaes.
 ⚠️ Atenção: Este projeto é apenas para fins educacionais e não deve ser utilizado para atividades maliciosas. O uso indevido pode resultar em consequências legais.
 
-📌🔹 Origem do Projeto:
+##📌 Origem do Projeto:
 Este projeto foi um fork de um repositório do GitHub. Ele foi estudado para fins educacionais sobre Cibersegurança.
 
-📌🔹 Como funciona:
+##📌 Como funciona:
 O script encrypter.py criptografa um arquivo chamado teste.txt e cria um novo arquivo criptografado com a extensão .ransomwaretroll.
 O script decrypter.py descriptografa o arquivo e restaura o seu conteúdo original.
 
-🚀🔹 Tecnologias Utilizadas
+##🚀 Tecnologias Utilizadas
 Python 3
 Kali Linux
 **Biblioteca **pyaes
 
-📥 Instalação e Execução
+##📥 Instalação e Execução
 🔹 1. Clonar o repositório
  git clone https://github.com/cassiano-dio/cibersecurity-desafio-ransomware
  cd simulador-ransomware
@@ -35,7 +35,7 @@ Isso removerá o arquivo teste.txt e criará teste.txt.ransomwaretroll.
 python decrypter.py
 Isso removerá o arquivo criptografado e restaurará teste.txt.
 
-📝🔹 Códigos
+##📝🔹 Códigos
 Encrypter (encrypter.py)
 
 import os
